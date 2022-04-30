@@ -1,6 +1,9 @@
 *{padding: 0px;margin: 0px;}
 
 body {width: 1350px;margin: auto;}
+header {
+	background-image:url(batu.jpg) ;}
+
 
 header  {background-image: url(background.jpg);
 		background-size: cover;
@@ -22,4 +25,12 @@ article p {padding-bottom:30px ;font-size: 18px; text-align: justify; padding-le
 
 .navbar{
 	align-content: center;
+
+.title {
+		position: absolute;}
+	top:50%;
+	left:50% ;
+	transform: translate('-50%,-50%');
 }
+.title h1
+	color:white;
